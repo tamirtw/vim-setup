@@ -1,0 +1,1 @@
+/Users/tamir/.spf13-vim/.vim

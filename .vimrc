@@ -69,11 +69,13 @@
 " }
 
 " Vim UI {
-	color molokai     	       		" load a colorscheme
+	color zenburn     	       		" load a colorscheme
 	set tabpagemax=15 				" only show 15 tabs
 	set showmode                   	" display the current mode
 
 	set cursorline  				" highlight current line
+	set guifont=Monaco:h23
+	set guioptions-=T
 	hi cursorline guibg=#333333 	" highlight bg color of current line
 	hi CursorColumn guibg=#333333   " highlight cursor
 
